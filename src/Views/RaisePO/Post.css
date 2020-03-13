@@ -1,0 +1,21 @@
+.Post {
+    width: 60%;
+    margin: -30px;
+    margin-left: 300px;
+    border: 1px solid  blue;
+    box-shadow: 0 8px 6px grey;
+    padding: 20px;
+    text-align: center;
+}
+
+.Leftelements {
+    margin-left: 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .Post {
+        margin-left: 40px;
+        width: 80%;
+    }
+  }

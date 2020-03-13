@@ -1,0 +1,9 @@
+.Home {
+    width: 40%;
+    margin: 150px;
+    margin-left: 350px;
+    border: 1px solid  blue;
+    box-shadow: 0 8px 6px grey;
+    padding: 29px;
+    text-align: center;
+}

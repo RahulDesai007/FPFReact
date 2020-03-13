@@ -1,0 +1,39 @@
+.background{
+    background-image: url("../Images/Loginbgimg.jpg");
+       /* Full height */
+       height: 100%; 
+    
+       /* Center and scale the image nicely */
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+    }
+    
+
+
+.Login {
+    width: 30%;
+    min-height: 20%;
+    margin: -200px;
+    margin-left: 470px;
+    border: 1px solid  blue;
+    box-shadow: 0 8px 6px grey;
+    padding: -9px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    
+}
+
+
+
+.MuiSelect-select {
+    min-width: 196px;
+}
+
+@media only screen and (max-width: 600px) {
+    .Login {
+        margin-left: 90px;
+    }
+  }
