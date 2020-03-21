@@ -82,7 +82,7 @@ const useStyles = makeStyles(theme => ({
 export default function PersistentDrawerLeft(props) {
   const classes = useStyles();
   const theme = useTheme();
-  const [open, setOpen] = React.useState(false);
+  const [open, setOpen] = React.useState(true);
   
   const handleDrawerOpen = () => {
     setOpen(true);
@@ -94,7 +94,7 @@ export default function PersistentDrawerLeft(props) {
   const style = { cursor: 'pointer'}
   
   return (
-    <div className={classes.root}>
+    <div className={classes.root}  >
       <CssBaseline />
       <AppBar
         position="fixed"
@@ -102,7 +102,7 @@ export default function PersistentDrawerLeft(props) {
           [classes.appBarShift]: open,
         })}
       >
-        <Toolbar>
+        <Toolbar >
           <IconButton
             color="inherit"
             aria-label="open drawer"
@@ -131,15 +131,15 @@ export default function PersistentDrawerLeft(props) {
         </div>
         <Divider />
         <List>
-         <h3 align="center" onClick={props.click} style={ style }>Raise P/O</h3>
+         <h3 align="center" onClick={props.click} style={ style }>Dashboard</h3>
          <Divider />
-         <h3 align="center" onClick={props.clickget} style={ style }>Get</h3>
+         <h3 align="center" onClick={props.clickget} style={ style }>===Some Features===</h3>
          <Divider />
-         <h3 align="center" onClick={props.clickgetbyname} style={ style }>Get By Name</h3>
+         <h3 align="center" onClick={props.clickgetbyname} style={ style }>===Some Features===</h3>
          <Divider />
-         <h3 align="center" onClick={props.clickdelete} style={ style }>Delete</h3>
+         <h3 align="center" onClick={props.clickdelete} style={ style }>===Some Features===</h3>
          <Divider />
-         <h3 align="center" onClick={props.clickhome} style={ style }>Home</h3>
+         <h3 align="center" onClick={props.clickhome} style={ style }>===Some Features===</h3>
          <Divider />
          <h3 align="center" onClick={props.logout} style={ style }>Logout</h3>
         </List>

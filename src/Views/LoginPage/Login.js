@@ -160,8 +160,8 @@ class LoginPage extends Component {
     // but you don't need to target those (any css-selector will work)
     return (
       <div>
-        <div className="background">
-        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        <div className="Background">
+        <br/>
         <div className="Login" >
          <br/>
           <form onSubmit={this.handleSubmit}>
@@ -215,6 +215,8 @@ class LoginPage extends Component {
               onClick={this.handleLogin}>Submit</Button>
           </form>
           <br/><br/><br/><br/>
+          
+          
           
         </div>
         

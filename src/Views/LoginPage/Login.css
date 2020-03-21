@@ -1,26 +1,29 @@
-.background{
-    background-image: url("../Images/Loginbgimg.jpg");
+.Background{
+    background-image: url("../Images/auto\ financing_12.jpg") ;
        /* Full height */
-       height: 100%; 
-    
+       
+       
+
+       
        /* Center and scale the image nicely */
+       height: 620px;
        background-position: center;
        background-repeat: no-repeat;
-       background-size: cover;
+       background-size: cover; 
     }
     
 
 
 .Login {
     width: 30%;
-    min-height: 20%;
-    margin: -200px;
+    /* min-height: 20%; */
+    margin: 100px;
     margin-left: 470px;
     border: 1px solid  blue;
     box-shadow: 0 8px 6px grey;
     padding: -9px;
     text-align: center;
-    opacity: 0.7;
+    opacity: 0.8;
     background-color: whitesmoke;
     border-radius: 10px;
     

@@ -7,7 +7,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import { render } from 'react-dom';
 
 
-render(<Router>{Routes}</Router>, document.getElementById('rahul') );
+render(<Router>{Routes}</Router>, document.getElementById('App') );
 //render(<App/>, document.getElementById('rahul') );
 
 
